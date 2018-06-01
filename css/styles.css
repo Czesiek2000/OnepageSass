@@ -5,12 +5,13 @@ nav {
   margin-top: 0;
   line-height: 70px; }
   nav ul {
-    display: flex;
     list-style-type: none;
     padding: 0; }
   nav li {
+    display: flex;
     width: 100%;
     justify-content: space-between;
+    flex: 1 1 1;
     border-right: 1px solid #fff; }
   nav a {
     list-style-type: none;
