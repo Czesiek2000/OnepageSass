@@ -1,0 +1,25 @@
+nav {
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  margin-top: 0;
+  line-height: 70px; }
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0; }
+  nav li {
+    width: 100%;
+    justify-content: space-between;
+    border-right: 1px solid #fff; }
+  nav a {
+    list-style-type: none;
+    display: block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px; }
+    nav a:hover {
+      color: #333;
+      background-color: #fff; }
