@@ -94,3 +94,30 @@ nav {
     color: #fff;
     padding-bottom: 10px;
     padding-left: 20px; }
+
+.skills-container {
+  margin-top: 5px;
+  background-color: #6a3c0d;
+  padding-bottom: 20px; }
+  .skills-container h1 {
+    font-size: 40px;
+    color: #dbd6d6; }
+  .skills-container img {
+    width: auto;
+    height: 100px; }
+    .skills-container img:hover {
+      transform: scale(1.2); }
+  .skills-container .boxes {
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    display: inline-block; }
+    .skills-container .boxes h3 {
+      color: #e8dede;
+      text-align: center;
+      padding-top: 10px; }
+      .skills-container .boxes h3:nth-last-child(2) {
+        margin-top: 20px; }
+  .skills-container .box {
+    text-align: center; }

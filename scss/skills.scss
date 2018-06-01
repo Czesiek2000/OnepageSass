@@ -1,0 +1,37 @@
+.skills-container {
+    margin-top: 5px;
+    background-color: $skillsColor;
+    padding-bottom: 20px;
+    h1 {
+        font-size: 40px;
+        color: $homeH1;
+    }
+
+    img {
+        width: auto;
+        height: 100px;
+        &:hover {
+            transform: scale(1.2)
+        }
+
+    }
+    .boxes {
+        padding-top: 20px;
+        padding-left: 20px;
+        margin-top: 40px;
+        margin-left: 20px;
+        display: inline-block;
+
+        h3 {
+            color: $h3Color;
+            text-align: center;
+            padding-top: 10px;
+            &:nth-last-child(2) {
+            margin-top: 20px
+        }
+        }
+    }
+    .box {
+        text-align: center;
+    }
+}
