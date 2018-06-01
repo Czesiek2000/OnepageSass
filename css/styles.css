@@ -79,3 +79,18 @@ nav {
   .home-container h1 {
     font-size: 40px;
     color: #dbd6d6; }
+
+.about-container {
+  background-color: rgba(37, 33, 134, 0.67);
+  height: 330px; }
+  .about-container h1 {
+    color: #dbd6d6;
+    font-size: 40px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px; }
+  .about-container p {
+    color: #fff;
+    padding-bottom: 10px;
+    padding-left: 20px; }
