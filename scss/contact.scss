@@ -1,0 +1,51 @@
+.contact-container {
+    background-color: $ContactSection;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    h1 {
+        color: $homeH1;
+        font-size: 40px;
+
+    }
+    input {
+        background-color: $inputColor;
+        color: $inputFont;
+        border-radius: 5px;
+        border-style: none;
+        height: 30px;
+        cursor: pointer;
+        width: 300px;
+        &::placeholder {
+            color: $inputFont;
+            font-size: 16px;
+
+        }
+        &:hover {
+            border-right: 5px solid #d93d3d;
+            background-color: $inputColor;
+            cursor: pointer;
+
+        }
+    }
+    p {
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: #4d4444;
+    }
+    button {
+        background-color: $buttonColor;
+        color: $buttonFont;
+        border-radius: 50px;
+        border-style: none;
+        width: 120px;
+        height: 40px;
+        margin-top: 20px;
+
+        &:hover {
+            background-color: #414bc4;
+            color: #ffffff;
+            transform: scale(1.2);
+        }
+    }
+}

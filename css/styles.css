@@ -121,3 +121,43 @@ nav {
         margin-top: 20px; }
   .skills-container .box {
     text-align: center; }
+
+.contact-container {
+  background-color: #58c790;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .contact-container h1 {
+    color: #dbd6d6;
+    font-size: 40px; }
+  .contact-container input {
+    background-color: #fff;
+    color: #837979;
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    cursor: pointer;
+    width: 300px; }
+    .contact-container input::placeholder {
+      color: #837979;
+      font-size: 16px; }
+    .contact-container input:hover {
+      border-right: 5px solid #d93d3d;
+      background-color: #fff;
+      cursor: pointer; }
+  .contact-container p {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: #4d4444; }
+  .contact-container button {
+    background-color: #fff;
+    color: #0a0909;
+    border-radius: 50px;
+    border-style: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px; }
+    .contact-container button:hover {
+      background-color: #414bc4;
+      color: #ffffff;
+      transform: scale(1.2); }
