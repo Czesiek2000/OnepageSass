@@ -16,19 +16,22 @@ li {
   width: 100%;
   max-width: 960px;
   margin-top: 5px;
+  margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  box-shadow: 0 0 35 px #1c1a1a;
+  box-shadow: 0 0 35px #1c1a1a;
   border-radius: 5px; }
 
 nav {
   background-color: #333;
   position: sticky;
   top: 0;
+  z-index: 2;
   margin-top: 0;
-  line-height: 70px; }
+  line-height: 70px;
+  margin-bottom: 1px; }
   nav ul {
     list-style-type: none;
     padding: 0; }
@@ -72,7 +75,8 @@ nav {
 .home-container {
   align-items: center;
   text-align: center;
-  background-color: #333; }
+  background-color: #333;
+  margin-bottom: 1px; }
   .home-container img {
     margin-top: 10px;
     border-radius: 50%; }
@@ -87,7 +91,7 @@ nav {
     color: #dbd6d6;
     font-size: 40px;
     margin-left: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding-bottom: 20px;
     padding-top: 10px; }
   .about-container p {
@@ -161,3 +165,13 @@ nav {
       background-color: #414bc4;
       color: #ffffff;
       transform: scale(1.2); }
+
+.scrollup {
+  width: 64px;
+  height: 64px;
+  background: url("../img/strzalka.png") 0px 0px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  position: fixed;
+  right: 30px;
+  bottom: 30px; }

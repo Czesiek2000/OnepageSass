@@ -14,14 +14,15 @@
 
 <body>
     <div class="container">
+        <a href="#" class="scrollup"></a>
         <header>
-            <nav>
+            <nav class="nav">
                 <ul>
                     <li>
-                        <a href="#">Home</a>
-                        <a href="#">About</a>
-                        <a href="#">Skills</a>
-                        <a href="#">Contact</a>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -35,13 +36,13 @@
             </div>
         </div>
         <section>
-            <div class="home-container">
+            <div class="home-container" id="home">
                 <h1>Home</h1>
                 <img src="home-logo.jpg" alt="home-logo">
             </div>
         </section>
         <section>
-            <div class="about-container">
+            <div class="about-container" id="about">
 
                 <h1>About</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem nihil voluptatem sunt quae itaque eveniet
@@ -60,7 +61,7 @@
             </div>
         </section>
         <section>
-            <div class="skills-container">
+            <div class="skills-container" id="skills">
                 <h1>Skills</h1>
                 <div class="box">
 
@@ -98,7 +99,7 @@
             </div>
         </section>
         <section>
-            <div class="contact-container">
+            <div class="contact-container" id="contact">
 
                 <h1>Contact</h1>
                 <form>
@@ -119,7 +120,6 @@
         </section>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="stickyfill.js"></script>
     <script src="script.js"></script>
 </body>
 

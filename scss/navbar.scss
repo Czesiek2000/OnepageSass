@@ -2,9 +2,10 @@ nav{
     background-color: $navBackground;
     position: sticky;
     top: 0;
+    z-index: 2;
     margin-top: 0;
     line-height: 70px;
-    
+    margin-bottom: 1px;    
     ul{
         list-style-type: none;
         padding: 0;
