@@ -1,0 +1,13 @@
+.home-container {
+    align-items: center;
+    text-align: center;
+    background-color: $homeColor;
+    img {
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+    h1 {
+        font-size: 40px;
+        color: $homeH1;
+    }
+}

@@ -68,3 +68,14 @@ nav {
   .header-logo p {
     color: #fff;
     font-size: 17px; }
+
+.home-container {
+  align-items: center;
+  text-align: center;
+  background-color: #333; }
+  .home-container img {
+    margin-top: 10px;
+    border-radius: 50%; }
+  .home-container h1 {
+    font-size: 40px;
+    color: #dbd6d6; }
