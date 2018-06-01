@@ -1,0 +1,26 @@
+.header-logo{
+        position: relative;
+    h1{
+        margin-bottom: 30px;
+        font-size:72px;
+        color: $h1Color;
+        text-align: center;
+    }
+
+    .header-text{
+        position: absolute;
+        top: 120px;
+        left: 80px;
+        text-align: center;
+        text-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    }
+    
+    img{
+        width: 100%;
+    }
+
+    p{
+        color: $headerText;
+        font-size: 17px;
+    }
+}

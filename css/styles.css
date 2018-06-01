@@ -1,3 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: Roboto, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+li {
+  list-style-type: none; }
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 0 0 35 px #1c1a1a;
+  border-radius: 5px; }
+
 nav {
   background-color: #333;
   position: sticky;
@@ -24,3 +49,22 @@ nav {
     nav a:hover {
       color: #333;
       background-color: #fff; }
+
+.header-logo {
+  position: relative; }
+  .header-logo h1 {
+    margin-bottom: 30px;
+    font-size: 72px;
+    color: #fff;
+    text-align: center; }
+  .header-logo .header-text {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.3); }
+  .header-logo img {
+    width: 100%; }
+  .header-logo p {
+    color: #fff;
+    font-size: 17px; }
