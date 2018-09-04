@@ -1,7 +1,6 @@
 My website made with sass for practice
 
-live :
-``
+live : https://czesiek2000.github.io/OnepageSass/.
 
 # TODO:
 * Change colors
