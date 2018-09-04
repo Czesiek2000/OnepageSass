@@ -6,8 +6,8 @@ $('a[href*="#"]')
 .click(function(event) {
   // On-page links
   if (
-    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-    && 
+    location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+    &&
     location.hostname == this.hostname
   ) {
     // Figure out element to scroll to
@@ -35,3 +35,11 @@ $('a[href*="#"]')
   }
 });
 
+$('.scrollup').click(function() { $('body').scrollTop(0); });
+// Show when scrolling
+$(window).scroll(function()
+		{
+			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
+			else $('.scrollup').fadeOut();
+		}
+		);
