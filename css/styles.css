@@ -201,10 +201,10 @@ nav {
   bottom: 30px; }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 450px ){
+/* @media screen and (max-width: 450px ){
   .about-container {
     height: 600px;
-  }
+  } */
 
   .about-container p:nth-child(3){
     display: none;
