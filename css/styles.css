@@ -109,6 +109,17 @@ nav {
     color: #fff;
     padding-bottom: 10px;
     padding-left: 20px; }
+  @media (max-width: 450px) {
+    .about-container {
+      height: 600px; } }
+  @media (max-width: 450px) {
+    .about-container p:nth-child(3) {
+      display: none; }
+    .about-container .container {
+      margin: 0 auto; } }
+  @media (max-width: 700px) {
+    .about-container {
+      height: 600px; } }
 
 .skills-container {
   margin-top: 5px;
@@ -199,24 +210,3 @@ nav {
   position: fixed;
   right: 30px;
   bottom: 30px; }
-
-/* MEDIA QUERIES */
-/* @media screen and (max-width: 450px ){
-  .about-container {
-    height: 600px;
-  } */
-
-  .about-container p:nth-child(3){
-    display: none;
-
-  }
-  .container {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (max-width: 700px){
-  .about-container {
-    height: 600px;
-  }
-}
