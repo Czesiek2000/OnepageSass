@@ -66,6 +66,13 @@ nav {
       color: #333;
       background-color: #fff; }
 
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%; }
+
 .header-logo {
   position: relative; }
   @media (max-width: 360px) {

@@ -41,5 +41,16 @@ $(window).scroll(function()
 		{
 			if($(this).scrollTop()>300) $('.scrollup').fadeIn();
 			else $('.scrollup').fadeOut();
-		}
-		);
+	  }
+);
+
+$(window).scroll(function () {
+      if ($(window).scrollTop() == 50) {
+        $('nav.nav').addClass('navbar-fixed');
+      }
+      if ($(window).scrollTop() < 50) {
+        $('nav.nav').removeClass('navbar-fixed');
+      }
+      console.log($(window).scrollTop())
+      
+});
