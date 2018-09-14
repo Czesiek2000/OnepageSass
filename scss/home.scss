@@ -3,11 +3,25 @@
     text-align: center;
     background-color: $homeColor;
     margin-bottom: 1px;
+    
+    @media(max-width: 414px){
+      height: 400px; 
+    }
     img {
         margin-top: 10px;
+        margin-bottom: 20px;
         border-radius: 50%;
+        @media (max-width: 411px){
+          width: 90%;
+        }
+        
+        @media (max-width: 414px){
+          width: 90%;
+        }
     }
     h1 {
+        margin-bottom: 20px;
+        padding-top: 20px;
         font-size: 40px;
         color: $homeH1;
     }

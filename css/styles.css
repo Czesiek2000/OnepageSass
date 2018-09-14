@@ -25,6 +25,10 @@ li {
   -webkit-box-shadow: 0 0 35px #1c1a1a;
   box-shadow: 0 0 35px #1c1a1a;
   border-radius: 5px; }
+  @media (max-width: 360px) {
+    .container {
+      margin-left: 20px;
+      margin-right: 20px; } }
 
 nav {
   background-color: #333;
@@ -64,19 +68,68 @@ nav {
 
 .header-logo {
   position: relative; }
+  @media (max-width: 360px) {
+    .header-logo {
+      height: 400px; } }
+  @media (max-width: 411px) {
+    .header-logo {
+      height: 400px; } }
+  @media (max-width: 320px) {
+    .header-logo {
+      height: 450px; } }
+  @media (max-width: 414px) {
+    .header-logo {
+      height: 400px; } }
   .header-logo h1 {
     margin-bottom: 30px;
     font-size: 72px;
     color: #fff;
     text-align: center; }
+    @media (max-width: 860px) {
+      .header-logo h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 40px; } }
+    @media (max-width: 320px) {
+      .header-logo h1 {
+        margin-bottom: 20px; } }
+    @media (max-width: 414px) {
+      .header-logo h1 {
+        margin-bottom: 20px; } }
   .header-logo .header-text {
     position: absolute;
-    top: 120px;
-    left: 80px;
+    top: 20%;
+    left: 10%;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 40px;
     text-align: center;
     text-shadow: 0 0 15px rgba(0, 0, 0, 0.3); }
+    @media (max-width: 860px) {
+      .header-logo .header-text {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-right: 50px; } }
+    @media (max-width: 360px) {
+      .header-logo .header-text {
+        font-size: 40px; } }
+    @media (max-width: 411px) {
+      .header-logo .header-text {
+        margin-top: -10px; } }
+    @media (max-width: 320px) {
+      .header-logo .header-text {
+        margin-right: 40px;
+        margin-left: 0; } }
+    @media (max-width: 375px) {
+      .header-logo .header-text {
+        top: 12%; } }
+    @media (max-width: 414px) {
+      .header-logo .header-text {
+        top: 12%; } }
   .header-logo img {
-    width: 100%; }
+    width: 100%;
+    height: 100%; }
   .header-logo p {
     color: #fff;
     font-size: 17px; }
@@ -88,10 +141,22 @@ nav {
   text-align: center;
   background-color: #333;
   margin-bottom: 1px; }
+  @media (max-width: 414px) {
+    .home-container {
+      height: 400px; } }
   .home-container img {
     margin-top: 10px;
+    margin-bottom: 20px;
     border-radius: 50%; }
+    @media (max-width: 411px) {
+      .home-container img {
+        width: 90%; } }
+    @media (max-width: 414px) {
+      .home-container img {
+        width: 90%; } }
   .home-container h1 {
+    margin-bottom: 20px;
+    padding-top: 20px;
     font-size: 40px;
     color: #dbd6d6; }
 
@@ -124,37 +189,56 @@ nav {
 .skills-container {
   margin-top: 5px;
   background-color: #6a3c0d;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  height: 460px; }
+  @media (max-width: 520px) {
+    .skills-container {
+      height: 700px; } }
+  @media (max-width: 411px) {
+    .skills-container {
+      height: 1200px; } }
+  @media (max-width: 414px) {
+    .skills-container {
+      height: 1200px; } }
   .skills-container h1 {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
     font-size: 40px;
     color: #dbd6d6; }
-  .skills-container img {
-    width: auto;
-    height: 100px; }
-    .skills-container img:hover {
-      -webkit-transform: scale(1.2);
-      -ms-transform: scale(1.2);
-      transform: scale(1.2); }
   .skills-container .boxes {
-    padding-top: 20px;
-    padding-left: 20px;
-    margin-top: 40px;
-    margin-left: 20px;
-    display: inline-block; }
+    margin-bottom: 20px; }
+    .skills-container .boxes img {
+      width: auto;
+      height: 100px; }
+      .skills-container .boxes img:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2); }
     .skills-container .boxes h3 {
       color: #e8dede;
       text-align: center;
-      padding-top: 10px; }
+      padding-top: 15px; }
       .skills-container .boxes h3:nth-last-child(2) {
         margin-top: 20px; }
   .skills-container .box {
-    text-align: center; }
+    margin: 10px;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr); }
+    @media (max-width: 521px) {
+      .skills-container .box {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); } }
 
 .contact-container {
   background-color: #58c790;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px; }
+  @media (max-width: 320px) {
+    .contact-container {
+      width: 290px; } }
   .contact-container h1 {
     color: #dbd6d6;
     font-size: 40px; }

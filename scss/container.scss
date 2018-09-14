@@ -9,5 +9,9 @@
     padding-right: 15px;
     box-shadow: 0 0 35px #1c1a1a;
     border-radius: 5px;
-
+  @media (max-width: 360px){
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
 }

@@ -2,36 +2,56 @@
     margin-top: 5px;
     background-color: $skillsColor;
     padding-bottom: 20px;
+    height: 460px;
+    @media (max-width: 520px){
+      height: 700px;
+    }
+    
+    @media (max-width: 411px){
+      height: 1200px;
+    }
+    
+    @media (max-width: 414px){
+      height: 1200px;
+    }
     h1 {
+        padding-top: 10px;
+        padding-left: 20px;
+        padding-bottom: 20px;
         font-size: 40px;
         color: $homeH1;
     }
 
-    img {
-        width: auto;
-        height: 100px;
-        &:hover {
-            transform: scale(1.2)
-        }
-
-    }
     .boxes {
-        padding-top: 20px;
-        padding-left: 20px;
-        margin-top: 40px;
-        margin-left: 20px;
-        display: inline-block;
+        margin-bottom: 20px;
+        
+        img {
+          width: auto;
+          height: 100px;
+          &:hover {
+            transform: scale(1.2)
+          }
+          
+        }
 
         h3 {
             color: $h3Color;
             text-align: center;
-            padding-top: 10px;
+            padding-top: 15px;
             &:nth-last-child(2) {
             margin-top: 20px
         }
         }
     }
     .box {
+        margin: 10px;
         text-align: center;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        
+        @media (max-width: 521px){
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
     }
 }
